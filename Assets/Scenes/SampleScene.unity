@@ -4257,16 +4257,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213190381}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1.4058444, y: 1.2649999, z: 1.5738869}
-  m_LocalScale: {x: 0.49999988, y: 0.5, z: 0.49999988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.7899988, y: 5.24, z: 4.5300007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 621635155}
   - {fileID: 1583770897}
   - {fileID: 387394183}
   - {fileID: 2021272940}
-  m_Father: {fileID: 1596589238}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &222584059
 PrefabInstance:
@@ -24739,16 +24739,16 @@ PrefabInstance:
       objectReference: {fileID: 925795413}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5913670779434279738, guid: 0bfc19e975f164b4c9f4d8127fc9b47e,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 213190382}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8112191952333479436, guid: 0bfc19e975f164b4c9f4d8127fc9b47e,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1596589239}
+    - targetCorrespondingSourceObject: {fileID: 8112191952333479436, guid: 0bfc19e975f164b4c9f4d8127fc9b47e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1596589240}
   m_SourcePrefab: {fileID: 100100000, guid: 0bfc19e975f164b4c9f4d8127fc9b47e, type: 3}
 --- !u!1001 &1293408090
 PrefabInstance:
@@ -30758,12 +30758,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1292449075}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1596589238 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5913670779434279738, guid: 0bfc19e975f164b4c9f4d8127fc9b47e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1292449075}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1596589239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30778,6 +30772,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 30
+--- !u!114 &1596589240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596589236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b497cb508c38f48429469b8d24c1c4d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raceState: 0
 --- !u!1001 &1598434838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42186,3 +42193,4 @@ SceneRoots:
   - {fileID: 1730884971}
   - {fileID: 1292449075}
   - {fileID: 270871447}
+  - {fileID: 213190382}
