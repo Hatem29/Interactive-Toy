@@ -19,18 +19,18 @@ public class ValueReference : MonoBehaviour
         Debug.Log(c);
     }
 
-    void ChangeByValue(int var)
+    void ChangeByValue(int vr)
     {
-        var += 10;
+        vr += 10;
     }
 
-    void ChangeByRef(ref int var)
+    void ChangeByRef(ref int vr)
     {
-        var += 10;
+        vr += 10;
     }
 
-    void GiveValue(out int var)
+    void GiveValue(out int vr)
     {
-        var = 100;
+        vr = 100;
     }
 }
