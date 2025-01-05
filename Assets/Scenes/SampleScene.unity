@@ -5035,7 +5035,7 @@ PrefabInstance:
     - target: {fileID: 206532394384810093, guid: b697dc1b175856946b7baeff3f777165,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.52
+      value: 8.55
       objectReference: {fileID: 0}
     - target: {fileID: 206532394384810093, guid: b697dc1b175856946b7baeff3f777165,
         type: 3}
@@ -5125,7 +5125,7 @@ PrefabInstance:
     - target: {fileID: 2330647691085602139, guid: b697dc1b175856946b7baeff3f777165,
         type: 3}
       propertyPath: m_Name
-      value: Clown
+      value: Bad Clown
       objectReference: {fileID: 0}
     - target: {fileID: 2330647691085602139, guid: b697dc1b175856946b7baeff3f777165,
         type: 3}
@@ -18380,7 +18380,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5, y: 5, z: 5}
+  m_Size: {x: 7, y: 7, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &925795417
 MonoBehaviour:
@@ -31496,7 +31496,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5, y: 5, z: 5}
+  m_Size: {x: 7, y: 7, z: 5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1596589242
 Rigidbody:
