@@ -8,7 +8,6 @@ namespace Assignment29
     {
         void Start()
         {
-            var st = "";
             var n = 1;
             var even = (n % 2 == 0 ? true : false);
 
